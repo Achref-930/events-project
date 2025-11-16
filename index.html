@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOOKITA - Premium Event Booking</title>
@@ -12,9 +12,9 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-            <a class="navbar-brand fw-bold brand-primary" href="#">
+            <a class="navbar-brand fw-bold" href="#" style="color: var(--primary);">
                 <i class="fas fa-calendar-star"></i> BOOKITA </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation" title="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -24,7 +24,7 @@
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" id="viewBookingsBtn">
-                            <i class="fas fa-ticket-alt text-primary"></i> My Bookings
+                            <i class="fas fa-ticket-alt" style="color: var(--primary);"></i> My Bookings
                         </a>
                     </li>
                 </ul>
@@ -98,29 +98,29 @@
             <div class="modal-content">
                 <div class="modal-header border-0">
                     <h5 class="modal-title fw-bold">Complete Your Booking</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" title="Close"></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body">
                     <div id="bookingForm">
                         <h6 id="modalEventTitle" class="mb-3"></h6>
                         <div class="mb-3">
-                            <label class="form-label" for="bookingName">Full Name</label>
-                            <input type="text" class="form-control" id="bookingName" required placeholder="Full Name" title="Enter your full name">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="bookingName" required>
                         </div>
                         <div class="mb-3">
-                            <label class="form-label" for="bookingEmail">Email</label>
-                            <input type="email" class="form-control" id="bookingEmail" required placeholder="you@example.com" title="Enter your email address">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" id="bookingEmail" required>
                         </div>
                         <div class="mb-3">
-                            <label class="form-label" for="bookingTickets">Number of Tickets</label>
-                            <input type="number" class="form-control" id="bookingTickets" min="1" max="10" value="1" placeholder="1" title="Enter number of tickets (1-10)">
+                            <label class="form-label">Number of Tickets</label>
+                            <input type="number" class="form-control" id="bookingTickets" min="1" max="10" value="1">
                         </div>
                         <div class="mb-3">
-                            <label class="form-label" for="bookingPhone">Phone Number</label>
-                            <input type="tel" class="form-control" id="bookingPhone" placeholder="123-456-7890" title="Enter your phone number">
+                            <label class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="bookingPhone">
                         </div>
                     </div>
-                    <div id="bookingSuccess" class="booking-success d-none">
+                    <div id="bookingSuccess" class="booking-success" style="display: none;">
                         <i class="fas fa-check-circle"></i>
                         <h4>Booking Confirmed!</h4>
                         <p>Your tickets have been sent to your email.</p>
@@ -140,7 +140,7 @@
             <div class="modal-content">
                 <div class="modal-header border-0">
                     <h5 class="modal-title fw-bold">My Bookings</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" title="Close"></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body">
                     <div id="bookingsList"></div>
@@ -154,10 +154,10 @@
         <div class="container text-center">
             <p class="mb-2">&copy; 2024 EventPro All rights reserved.</p>
             <div class="social-links">
-                <a href="#" class="text-white me-3" title="Facebook" aria-label="Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="visually-hidden">Facebook</span></a>
-                <a href="#" class="text-white me-3" title="Twitter" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span class="visually-hidden">Twitter</span></a>
-                <a href="#" class="text-white me-3" title="Instagram" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i><span class="visually-hidden">Instagram</span></a>
-                <a href="#" class="text-white" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span class="visually-hidden">LinkedIn</span></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-linkedin"></i></a>
             </div>
         </div>
     </footer>
