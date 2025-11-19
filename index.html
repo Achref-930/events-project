@@ -34,14 +34,15 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero">
-        <div class="container text-center position-relative">
+    <section class="hero position-relative" style="background-image:url('https://www.highflyerindia.com/images/corporate-events.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 60vh;">
+        <div class="container text-center position-relative"; background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 60vh;">
+        <div class="overlay position-absolute w-100 h-100" style="top:0; left:0; background: rgba(0,0,0,0.45);"></div>
+        <div class="container text-center text-white position-relative" style="z-index:2; padding:6rem 0;">
             <h1 class="display-3 fw-bold mb-4">Discover Amazing Events</h1>
             <p class="lead mb-4">Book your next unforgettable experience with just a few clicks</p>
             <a href="#events" class="btn btn-light btn-lg">Explore Events</a>
         </div>
     </section>
-
     <!-- Stats Section -->
     <section class="stats-section">
         <div class="container">
@@ -80,8 +81,9 @@
             <h2 class="text-center mb-4 fw-bold">Upcoming Events</h2>
             
             <!-- Filter Buttons -->
-            <div class="text-center mb-4">
-                <button type="button" class="filter-btn active" data-category="all">All Events</button>
+            <div class="text-center mb-5">
+                <button type="button" class="filter-btn" data-category="all">All Events</button>
+                <button type="button" class="filter-btn active" data-category="weddings">Weddings</button>
                 <button type="button" class="filter-btn" data-category="music">Music</button>
                 <button type="button" class="filter-btn" data-category="conference">Conference</button>
                 <button type="button" class="filter-btn" data-category="workshop">Workshop</button>
@@ -89,7 +91,7 @@
             </div>
 
             <!-- Events Grid -->
-            <div id="eventsContainer" class="row g-4"></div>
+            <div id="eventsContainer" class="row g-5"></div>
         </div>
     </section>
 

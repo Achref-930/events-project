@@ -1,7 +1,28 @@
 // Events Data
 const events = [
   {
+    id: 0,
+    title: "bachelor party",
+    category: "weddings",
+    date: "Nov 10, 2025",
+    location: "Downtown Club",
+    price: "$5000",
+    image:"https://plus.unsplash.com/premium_photo-1663088957773-85506710740b?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    description: "Celebrate the groom's last night of freedom in style.",
+  },
+  {
     id: 1,
+    title: "engagement party",
+    category: "weddings",
+    date: "Dec 15, 2025",
+    location: "Sunset Gardens",
+    price: "$7000",
+    image:
+      "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    description: "Celebrate your engagement in a beautiful garden setting.",
+  },
+  {
+    id: 3,
     title: "Summer Music Festival",
     category: "music",
     date: "Dec 20, 2024",
@@ -13,7 +34,7 @@ const events = [
       "Join us for an amazing outdoor music festival featuring top artists.",
   },
   {
-    id: 2,
+    id: 4,
     title: "Tech Conference 2024",
     category: "conference",
     date: "Dec 25, 2024",
@@ -24,7 +45,7 @@ const events = [
     description: "Learn from industry leaders about the latest in technology.",
   },
   {
-    id: 3,
+    id: 5,
     title: "Photography Workshop",
     category: "workshop",
     date: "Jan 5, 2025",
@@ -35,7 +56,7 @@ const events = [
     description: "Master the art of photography with professional guidance.",
   },
   {
-    id: 4,
+    id: 5,
     title: "Marathon Championship",
     category: "sports",
     date: "Jan 15, 2025",
@@ -46,7 +67,7 @@ const events = [
     description: "Watch or participate in the biggest marathon of the year.",
   },
   {
-    id: 5,
+    id: 6,
     title: "Jazz Night Live",
     category: "music",
     date: "Jan 22, 2025",
@@ -57,7 +78,7 @@ const events = [
     description: "An intimate evening with legendary jazz performers.",
   },
   {
-    id: 6,
+    id: 7,
     title: "Digital Marketing Summit",
     category: "conference",
     date: "Feb 1, 2025",
